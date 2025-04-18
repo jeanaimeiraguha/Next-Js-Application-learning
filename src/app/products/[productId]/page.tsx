@@ -1,9 +1,9 @@
 export default function ProductDetails({params}:{
-     params:{productId:string}
+     params:{ProductId:string}
 }){
      return(
           <>
-          <h1>Details about Products{params.productId}</h1>
+          <h1>Details about Products{params.ProductId}</h1>
           </>
      )
 }
